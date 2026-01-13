@@ -25,7 +25,7 @@ function Profile() {
     <div role="main" className="profile">
       <img src={avatar} alt="avatar" />
       <div>
-        <h3>Jessica Randall</h3>
+        <h1>Jessica Randall</h1>
         <p style={{ color: "var( --text-secondary)", fontWeight: "600" }}>
           London,United Kingdom
         </p>
