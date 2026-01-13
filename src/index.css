@@ -44,7 +44,7 @@ h3 {
 }
 
 .profile {
-  width: 220px;
+  width: 11em;
   text-align: center;
   background-color: var(--background-profile);
   display: flex;
@@ -77,10 +77,4 @@ button {
 button:hover {
   background-color: var(--text-secondary);
   cursor: pointer;
-}
-
-@media (max-width: 600px) {
-  * {
-    font-size: 20px;
-  }
 }
