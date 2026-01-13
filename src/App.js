@@ -22,7 +22,7 @@ export default function App() {
 
 function Profile() {
   return (
-    <div role="main" className="profile">
+    <main className="profile">
       <img src={avatar} alt="avatar" />
       <div>
         <h1>Jessica Randall</h1>
@@ -40,10 +40,14 @@ function Profile() {
           </Button>
         ))}
       </div>
-    </div>
+    </main>
   );
 }
 
 function Button({ children, value }) {
-  return <button onClick={() => window.open(value)}>{children}</button>;
+  return (
+    <button type="button" onClick={() => window.open(value)}>
+      {children}
+    </button>
+  );
 }
