@@ -22,7 +22,7 @@ export default function App() {
 
 function Profile() {
   return (
-    <div className="profile">
+    <div role="main" className="profile">
       <img src={avatar} alt="avatar" />
       <div>
         <h3>Jessica Randall</h3>
