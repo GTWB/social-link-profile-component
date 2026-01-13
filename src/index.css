@@ -72,9 +72,11 @@ button {
   border: none;
   font-weight: 600;
   font-size: 11px;
+  transition: background-color 1s;
 }
 
 button:hover {
   background-color: var(--text-secondary);
   cursor: pointer;
+  color: var(--background);
 }
